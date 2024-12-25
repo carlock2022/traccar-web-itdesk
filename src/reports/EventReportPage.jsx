@@ -9,6 +9,7 @@ import { useSelector } from 'react-redux';
 import { formatSpeed, formatTime } from '../common/util/formatter';
 import ReportFilter from './components/ReportFilter';
 import { prefixString } from '../common/util/stringUtils';
+import { prefixString2 } from '../common/util/stringUtils2';
 import { useTranslation } from '../common/components/LocalizationProvider';
 import PageLayout from '../common/components/PageLayout';
 import ReportsMenu from './components/ReportsMenu';
